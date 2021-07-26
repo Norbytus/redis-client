@@ -1,4 +1,4 @@
-mod redis {
+pub mod redis {
     use std::{io::{BufRead, Cursor, Seek, SeekFrom, ErrorKind, Read, Write}, net::{TcpStream, ToSocketAddrs}};
 
     const BULK_STRING_BYTE: u8 = 36;
