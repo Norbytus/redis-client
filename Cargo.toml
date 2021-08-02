@@ -2,6 +2,11 @@
 name = "redis-client"
 version = "1.0.0"
 edition = "2018"
+authors = ["norbytus <norbyt93@gmail.com>"]
+description = "Simple redis client"
+repository = "https://github.com/Norbytus/redis-client/"
+keywords = ["redis"]
+license = "Apache-2.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
